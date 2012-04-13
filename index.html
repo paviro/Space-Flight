@@ -14,7 +14,6 @@ __ __ ___ _(_) |_| |_ ___ _ _   | |__ _  _
 -->
 <html>
 <head>
-<meta http-equiv="refresh" content="0; url=#bottom">
 <link rel="stylesheet" type="text/css" href="keyframes.css">
 <title>Space</title>
 <style>
@@ -40,9 +39,11 @@ z-index:0;
 bottom: 40px;
 left:45%;
 position: fixed;
-height: 400px;
-width: 100px;
-background-color:red;
+height: 503px;
+width: 183px;
+background-image:url(img/rocket.png);
+background-repeat:no-repeat;
+background-position:center center;
 }
 #end{
 position:absolute;
@@ -59,19 +60,23 @@ visibility: hidden;
 }
 #earth{
 position: absolute;
+left: 30%;
+margin-left: -150px;
 bottom:0px;
-height:400px;
-width: 100%;
-background-color:green;
+height:555;
+width: 900px;
+background-image:url(img/earth.png);
+background-repeat:no-repeat;
+background-position:center center;
 }
 .clouds{
 position:absolute;
-height: 100px;
-width: 350px;
-background-color: black;
 }
 #cloud1{
-	opacity:0.6;
+	z-index:1;
+	height: 90px;
+	width: 206px;
+	opacity:0.9;
 	bottom: 1070px;
 	-webkit-animation-name: cloud1;
 	-webkit-animation-duration: 9s;
@@ -89,10 +94,15 @@ background-color: black;
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+	background-image:url(img/cloud1.png);
+background-repeat:no-repeat;
+background-position:center center;
 }
 #cloud2{
-	z-index:1;
-	opacity:0.2;
+	height: 112px;
+	width: 247px;
+	z-index:0;
+	opacity:0.5;
 	bottom: 900;
 	-webkit-animation-name: cloud2;
 	-webkit-animation-duration: 20s;
@@ -110,9 +120,15 @@ background-color: black;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+	background-image:url(img/cloud2.png);
+background-repeat:no-repeat;
+background-position:center center;
 }
 #cloud3{
-	opacity:0.5;
+	height: 112px;
+	width: 247px;
+	z-index:1;
+	opacity:0.8;
 	bottom: 750;
 	-webkit-animation-name: cloud2;
 	-webkit-animation-duration: 15s;
@@ -130,13 +146,15 @@ background-color: black;
 	animation-duration: 15s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+	background-image:url(img/cloud2.png);
+background-repeat:no-repeat;
+background-position:center center;
 }
 #meteor{
 	bottom: 3470px;
 	position:absolute;
-	height: 20px;
-	width: 20px;
-	background-color:yellow;
+	height: 47px;
+	width: 100px;
 	-webkit-animation-name: meteor;
 	-webkit-animation-duration: 40s;
 	-webkit-animation-iteration-count: infinite;
@@ -153,10 +171,13 @@ background-color: black;
 	animation-duration: 40s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+	background-image:url(img/meteor.png);
+background-repeat:no-repeat;
+background-position:center center;
 }
 </style>
 </head>
-<body onload="fly()">
+<body onload="window.location = '#bottom';fly()">
 <script>
 function fly() {
     	window.scrollBy(0,-1); 
