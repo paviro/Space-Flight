@@ -1,36 +1,12 @@
-@-webkit-keyframes cloud1{
+@-webkit-keyframes clouds{
        from {left: -50%;}
        to {left: 150%;}
       }
-@-moz-keyframes cloud1{
+@-moz-keyframes clouds{
       from {left: -50%;}
        to {left: 150%;}
        }
-@keyframes cloud1{
-       from {left: -50%;}
-       to {left: 150%;}
-      }
-@-webkit-keyframes cloud2{
-       from {left: -20%;}
-       to {left: 150%;}
-      }
-@-moz-keyframes cloud2{
-       from {left: -50%;}
-       to {left: 150%;}
-      }
-@keyframes cloud2{
-    from {left: -50%;}
-       to {left: 150%;}
-      }
-@-webkit-keyframes cloud3{
-        from {left: -50%;}
-       to {left: 150%;}
-      }
-@-moz-keyframes cloud3{
-     from {left: -50%;}
-       to {left: 150%;}
-      }
-@keyframes cloud3{
+@keyframes clouds{
        from {left: -50%;}
        to {left: 150%;}
       }
