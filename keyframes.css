@@ -34,3 +34,15 @@
        from {left: -50%;}
        to {left: 150%;}
       }
+@-webkit-keyframes meteor{
+        from {left: -50%;bottom: 3200px;}
+       to {left: 150%;bottom: 3200px;}
+      }
+@-moz-keyframes meteor{
+     from {left: -50%;bottom: 3470px;}
+       to {left: 150%;bottom: 2070px;}
+      }
+@keyframes meteor{
+       from {left: -50%;bottom: 3470px;}
+       to {left: 150%;bottom: 2070px;}
+      }
