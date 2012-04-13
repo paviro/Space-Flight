@@ -1,0 +1,48 @@
+@-webkit-keyframes cloud1{
+       0% {
+         left: -40px;
+       }
+       100% {
+        left: 200px;
+       }
+      }
+@-moz-keyframes cloud1{
+      0% {
+         left: -40px;
+       }
+       100% {
+        left: 200px;
+       }
+      }
+@keyframes cloud1{
+       0% {
+         left: -40px;
+       }
+       100% {
+        left: 200px;
+       }
+      }
+@-webkit-keyframes cloud2{
+       0% {
+         left: 700px;
+       }
+       100% {
+        left: 900px;
+       }
+      }
+@-moz-keyframes cloud2{
+      0% {
+         left: 700px;
+       }
+       100% {
+        left: 900px;
+       }
+      }
+@keyframes cloud2{
+       0% {
+         left: 700px;
+       }
+       100% {
+        left: 900px;
+       }
+      }

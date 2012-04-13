@@ -1,0 +1,120 @@
+<!-- 
+            _ _   _              _         
+__ __ ___ _(_) |_| |_ ___ _ _   | |__ _  _ 
+\ V  V / '_| |  _|  _/ -_) ' \  | '_ \ || |
+ \_/\_/|_| |_|\__|\__\___|_||_| |_.__/\_, |
+                                      |__/ 
+
+  ____             _    __     ___                      _     ____       _ _
+ |  _ \ __ _ _   _| |   \ \   / (_)_ __   ___ ___ _ __ | |_  |  _ \ ___ | | |
+ | |_) / _` | | | | |____\ \ / /| | '_ \ / __/ _ \ '_ \| __| | |_) / _ \| | |
+ |  __/ (_| | |_| | |_____\ V / | | | | | (_|  __/ | | | |_  |  _ < (_) | | |
+ |_|   \__,_|\__,_|_|      \_/  |_|_| |_|\___\___|_| |_|\__| |_| \_\___/|_|_|
+ 
+-->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="keyframes.css">
+<title>Space</title>
+<style>
+* {
+margin:0px; 
+padding:0px
+}
+#sky{
+position: absolute;
+height: 4000px;
+width: 100%;
+background: rgb(0,0,0);
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(30,87,153,1) 54%, rgba(125,185,232,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(54%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(30,87,153,1) 54%,rgba(125,185,232,1) 100%);
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(30,87,153,1) 54%,rgba(125,185,232,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(30,87,153,1) 54%,rgba(125,185,232,1) 100%);
+background: linear-gradient(top, rgba(0,0,0,1) 0%,rgba(30,87,153,1) 54%,rgba(125,185,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7db9e8',GradientType=0 );
+}
+#rocket{
+bottom: 40px;
+left:45%;
+position: fixed;
+height: 400px;
+width: 100px;
+background-color:red;
+}
+#end{
+position:absolute;
+left: 23%;
+top: 40px;
+font-size:80px;
+color: red;
+z-index:1;
+}
+#bottom{
+position: absolute;
+bottom: 1px;
+visibility: hidden;
+}
+#earth{
+position: absolute;
+bottom:0px;
+height:400px;
+width: 100%;
+background-color:green;
+}
+.clouds{
+position:absolute;
+height: 100px;
+width: 350px;
+background-color: black;
+}
+#cloud1{
+opacity:0.6;
+bottom: 1000px;
+-webkit-animation-name: cloud1;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: cloud1;
+	-moz-animation-duration: 7s;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: cloud1;
+	-ms-animation-duration: 7s;
+	-ms-animation-timing-function: linear;
+	animation-name: cloud1;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+}
+#cloud2{
+opacity:0.2;
+bottom: 800px;
+-webkit-animation-name: cloud2;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: cloud2;
+	-moz-animation-duration: 7s;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: cloud2;
+	-ms-animation-duration: 7s;
+	-ms-animation-timing-function: linear;
+	animation-name: cloud2;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+}
+</style>
+</head>
+<body onload="location.href='#bottom';fly()">
+<script>
+function fly() {
+    	window.scrollBy(0,-1); 
+    	setTimeout('fly()',2);
+}
+</script>
+<div id="end">You reached the end!</div>
+<div id="sky">
+<div id="earth"></div>
+<div class="clouds" id="cloud1"></div>
+<div class="clouds" id="cloud2"></div>
+<div id="bottom"></div>
+</div>
+<div id="rocket"></div>
+</body>
