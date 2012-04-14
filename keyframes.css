@@ -1,24 +1,145 @@
-@-webkit-keyframes clouds{
-       from {left: -50%;}
-       to {left: 150%;}
+@-webkit-keyframes cloud1{
+       from {left: 30%;}
+       to {left: 40%;}
       }
-@-moz-keyframes clouds{
-      from {left: -50%;}
-       to {left: 150%;}
+@-moz-keyframes cloud1{
+       from {left: 30%;}
+       to {left: 40%;}
        }
-@keyframes clouds{
-       from {left: -50%;}
-       to {left: 150%;}
+@keyframes cloud1{
+       from {left: 30%;}
+       to {left: 40%;}
       }
+@-webkit-keyframes cloud2{
+       from {left: 60%;}
+       to {left: 70%;}
+      }
+@-moz-keyframes cloud2{
+      from {left: 60%;}
+       to {left: 70%;}
+       }
+@keyframes cloud2{
+      from {left: 60%;}
+       to {left: 70%;}
+      }
+ @-webkit-keyframes cloud3{
+       from {left: 40%;}
+       to {left: 50%;}
+      }
+@-moz-keyframes cloud3{
+      from {left: 40%;}
+       to {left: 50%;}
+       }
+@keyframes cloud3{
+       from {left: 40%;}
+       to {left: 50%;}
+      }
+@-webkit-keyframes cloud4{
+       from {left: 10%;}
+       to {left: 20%;}
+      }
+@-moz-keyframes cloud4{
+       from {left: 10%;}
+       to {left: 20%;}
+       }
+@keyframes cloud4{
+        from {left: 10%;}
+       to {left: 20%;}
+      }
+@-webkit-keyframes cloud5{
+        from {left: 10%;}
+       to {left: 20%;}
+      }
+@-moz-keyframes cloud5{
+        from {left: 10%;}
+       to {left: 20%;}
+       }
+@keyframes cloud5{
+         from {left: 10%;}
+       to {left: 20%;}
+      }
+@-webkit-keyframes cloud6{
+       from {left: 70%;}
+       to {left: 80%;}
+      }
+@-moz-keyframes cloud6{
+       from {left: 70%;}
+       to {left: 80%;}
+       }
+@keyframes cloud6{
+        from {left: 70%;}
+       to {left: 80%;}
+      }
+@-webkit-keyframes cloud7{
+       from {left: 40%;}
+       to {left: 50%;}
+      }
+@-moz-keyframes cloud7{
+        from {left: 40%;}
+       to {left: 50%;}
+       }
+@keyframes cloud7{
+         from {left: 40%;}
+       to {left: 50%;}
+      }
+@-webkit-keyframes cloud8{
+       from {left: 10%;}
+       to {left: 20%;}
+      }
+@-moz-keyframes cloud8{
+      from {left: 10%;}
+       to {left: 20%;}
+       }
+@keyframes cloud8{
+      from {left: 10%;}
+       to {left: 20%;}
+      }
+@-webkit-keyframes cloud9{
+      from {left: 20%;}
+       to {left: 30%;}
+      }
+@-moz-keyframes cloud9{
+       from {left: 20%;}
+       to {left: 30%;}
+       }
+@keyframes cloud9{
+        from {left: 20%;}
+       to {left: 30%;}
+      }
+@-webkit-keyframes cloud10{
+       from {left: 70%;}
+       to {left: 80%;}
+      }
+@-moz-keyframes cloud10{
+       from {left: 70%;}
+       to {left: 80%;}
+       }
+@keyframes cloud10{
+      from {left: 70%;}
+       to {left: 80%;}
+      }
+@-webkit-keyframes cloud11{
+       from {left: 50%;}
+       to {left: 60%;}
+      }
+@-moz-keyframes cloud11{
+       from {left: 50%;}
+       to {left: 60%;}
+       }
+@keyframes cloud11{
+       from {left: 50%;}
+       to {left: 60%;}
+      }
+      
 @-webkit-keyframes meteor{
-        from {left: -50%;bottom: 3200px;}
-       to {left: 150%;bottom: 3200px;}
+	from {left: -50%;bottom: 3200px;}
+    to {left: 150%;bottom: 3200px;}
       }
 @-moz-keyframes meteor{
-     from {left: -50%;bottom: 3470px;}
-       to {left: 150%;bottom: 2070px;}
+	from {left: -50%;bottom: 3200px;}
+    to {left: 150%;bottom: 3200px;}
       }
 @keyframes meteor{
-       from {left: -50%;bottom: 3470px;}
-       to {left: 150%;bottom: 2070px;}
+    from {left: -50%;bottom: 3200px;}
+    to {left: 150%;bottom: 3200px;}
       }
