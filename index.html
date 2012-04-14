@@ -68,18 +68,19 @@ body{
 }
 #ufo_holder{
 	position: absolute;
-	bottom: 4500px;
+	bottom: 5300px;
+	visibility:hidden;
 	-webkit-animation-name: ufo;
-	-webkit-animation-duration: 37s;
+	-webkit-animation-duration: 25s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-name: ufo;
-	-moz-animation-duration: 37s;
+	-moz-animation-duration: 25s;
 	-moz-animation-timing-function: linear;
 	-ms-animation-name: ufo;
-	-ms-animation-duration: 37s;
+	-ms-animation-duration: 25s;
 	-ms-animation-timing-function: linear;
 	animation-name: ufo;
-	animation-duration: 37s;
+	animation-duration: 25s;
 	animation-timing-function: linear;
 	left:-24%;
 }
@@ -397,16 +398,16 @@ body{
 	height: 70px;
 	width: 150px;
 	-webkit-animation-name: meteor;
-	-webkit-animation-duration: 30s;
+	-webkit-animation-duration: 17s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-name: meteor;
-	-moz-animation-duration: 30s;
+	-moz-animation-duration: 17s;
 	-moz-animation-timing-function: linear;
 	-ms-animation-name: meteor;
-	-ms-animation-duration: 30s;
+	-ms-animation-duration: 17s;
 	-ms-animation-timing-function: linear;
 	animation-name: meteor;
-	animation-duration: 30s;
+	animation-duration: 17s;
 	animation-timing-function: linear;
 	background-image:url(img/meteor.png);
 	background-repeat:no-repeat;
@@ -896,8 +897,8 @@ body{
 <body onload="window.location = '#earth';fly()">
 <script>
 function fly() {
-    	window.scrollBy(0,-1); 
-    	setTimeout('fly()',0);
+    	window.scrollBy(0,-2); 
+    	setTimeout('fly()',1);
 }
 </script>
 <div id="end"><div id="end_text">You reached the end! (Project not finished) <a href="#earth">magic teleporter</a></div></div>

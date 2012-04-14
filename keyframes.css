@@ -209,14 +209,14 @@
 	100% {opacity:1;}
 }
 @-webkit-keyframes ufo{
-	from {left: 75%;}
-	to {left: -24%;}
+	from {left: 75%;visibility:visible;}
+	to {left: -24%;visibility:hidden;}
 }
 @-moz-keyframes ufo{
-	from {left: 20%;}
-	to {left: -24%;}
+	from {left: 20%;visibility:visible;}
+	to {left: -24%;visibility:hidden;}
 }
 @keyframes ufo{
-	from {left: 20%;}
-	to {left: -24%;}
+	from {left: 20%;visibility:visible;}
+	to {left: -24%;visibility:hidden;}
 }
