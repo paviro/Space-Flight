@@ -132,14 +132,14 @@
       }
       
 @-webkit-keyframes meteor{
-	from {left: -50%;bottom: 3200px;}
-    to {left: 150%;bottom: 3200px;}
+	from {left: -50%;bottom: 3700px;}
+    to {left: 150%;bottom: 3900px;}
       }
 @-moz-keyframes meteor{
-	from {left: -50%;bottom: 3200px;}
-    to {left: 150%;bottom: 3200px;}
+	from {left: -50%;bottom: 3700px;}
+    to {left: 150%;bottom: 3900px;}
       }
 @keyframes meteor{
-    from {left: -50%;bottom: 3200px;}
-    to {left: 90%;bottom: 3200px;}
+    from {left: -50%;bottom: 3700px;}
+    to {left: 150%;bottom: 3900px;}
       }
