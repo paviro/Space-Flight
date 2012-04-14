@@ -167,16 +167,16 @@
        to {left: 40%;}
       }
 @-webkit-keyframes meteor{
-	from {left: -70%;bottom: 3700px;}
-    to {left: 80%;bottom: 3900px;}
+	from {left: -70%;bottom: 3700px;visibility:visible;}
+    to {left: 80%;bottom: 3900px;visibility:hidden;}
       }
 @-moz-keyframes meteor{
-	from {left: -70%;bottom: 3700px;}
-    to {left: 100%;bottom: 3900px;}
+	from {left: -70%;bottom: 3700px;visibility:visible;}
+    to {left: 100%;bottom: 3900px;visibility:hidden;}
       }
 @keyframes meteor{
-    from {left: -70%;bottom: 3700px;}
-    to {left: 100%;bottom: 3800px;}
+    from {left: -70%;bottom: 3700px;visibility:visible;}
+    to {left: 100%;bottom: 3800px;visibility:hidden;}
       }
 @-webkit-keyframes stars{
        0% {
