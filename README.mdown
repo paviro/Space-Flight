@@ -1,3 +1,4 @@
 This is a work in progress CSS3 experiment, hope you like it.<br>
 The AWESOME graphics are created by the AWESOME Felix (@<a href="http://twitter.com/felixderbeste">FelixDerBeste</a>), thank you!<br>
-Original Gist: <a href="https://gist.github.com/2379673">click me!</a>
+Original Gist: <a href="https://gist.github.com/2379673">click me!</a><br>
+Demo: <a href="http://paviro.de/exp/css/spaceflight/index.html">click me!</a>
