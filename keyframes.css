@@ -1,258 +1,222 @@
 @-webkit-keyframes cloud1{
-       from {left: 30%;}
-       to {left: 40%;}
-      }
+	from {left: 30%;}
+	to {left: 40%;}
+}
 @-moz-keyframes cloud1{
-       from {left: 30%;}
-       to {left: 40%;}
-       }
+	from {left: 30%;}
+	to {left: 40%;}
+}
 @keyframes cloud1{
-       from {left: 30%;}
-       to {left: 40%;}
-      }
+	from {left: 30%;}
+	to {left: 40%;}
+}
 @-webkit-keyframes cloud2{
-       from {left: 60%;}
-       to {left: 70%;}
-      }
+	from {left: 60%;}
+ 	to {left: 70%;}
+}
 @-moz-keyframes cloud2{
-      from {left: 60%;}
-       to {left: 70%;}
-       }
+	from {left: 60%;}
+	to {left: 70%;}
+}
 @keyframes cloud2{
-      from {left: 60%;}
-       to {left: 70%;}
-      }
+	from {left: 60%;}
+	to {left: 70%;}
+}
  @-webkit-keyframes cloud3{
-       from {left: 40%;}
-       to {left: 50%;}
-      }
+	from {left: 40%;}
+	to {left: 50%;}
+}
 @-moz-keyframes cloud3{
-      from {left: 40%;}
-       to {left: 50%;}
-       }
+	from {left: 40%;}
+	to {left: 50%;}
+}
 @keyframes cloud3{
-       from {left: 40%;}
-       to {left: 50%;}
-      }
+	from {left: 40%;}
+	to {left: 50%;}
+}
 @-webkit-keyframes cloud4{
-       from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-moz-keyframes cloud4{
-       from {left: 10%;}
-       to {left: 20%;}
-       }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @keyframes cloud4{
-        from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-webkit-keyframes cloud5{
-        from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-moz-keyframes cloud5{
-        from {left: 10%;}
-       to {left: 20%;}
-       }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @keyframes cloud5{
-         from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-webkit-keyframes cloud6{
-       from {left: 70%;}
-       to {left: 80%;}
-      }
+	from {left: 70%;}
+	to {left: 80%;}
+}
 @-moz-keyframes cloud6{
-       from {left: 70%;}
-       to {left: 80%;}
-       }
+	from {left: 70%;}
+	to {left: 80%;}
+}
 @keyframes cloud6{
-        from {left: 70%;}
-       to {left: 80%;}
-      }
+	from {left: 70%;}
+	to {left: 80%;}
+}
 @-webkit-keyframes cloud7{
-       from {left: 40%;}
-       to {left: 50%;}
-      }
+	from {left: 40%;}
+	to {left: 50%;}
+}
 @-moz-keyframes cloud7{
-        from {left: 40%;}
-       to {left: 50%;}
-       }
+	from {left: 40%;}
+	to {left: 50%;}
+}
 @keyframes cloud7{
-         from {left: 40%;}
-       to {left: 50%;}
-      }
+	from {left: 40%;}
+	to {left: 50%;}
+}
 @-webkit-keyframes cloud8{
-       from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-moz-keyframes cloud8{
-      from {left: 10%;}
-       to {left: 20%;}
-       }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @keyframes cloud8{
-      from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-webkit-keyframes cloud9{
-      from {left: 20%;}
-       to {left: 30%;}
-      }
+	from {left: 20%;}
+	to {left: 30%;}
+}
 @-moz-keyframes cloud9{
-       from {left: 20%;}
-       to {left: 30%;}
-       }
+	from {left: 20%;}
+	to {left: 30%;}
+}
 @keyframes cloud9{
-        from {left: 20%;}
-       to {left: 30%;}
-      }
+	from {left: 20%;}
+	to {left: 30%;}
+}
 @-webkit-keyframes cloud10{
-       from {left: 70%;}
-       to {left: 80%;}
-      }
+	from {left: 70%;}
+	to {left: 80%;}
+}
 @-moz-keyframes cloud10{
-       from {left: 70%;}
-       to {left: 80%;}
-       }
+	from {left: 70%;}
+	to {left: 80%;}
+}
 @keyframes cloud10{
-      from {left: 70%;}
-       to {left: 80%;}
-      }
+	from {left: 70%;}
+	to {left: 80%;}
+}
 @-webkit-keyframes cloud11{
-       from {left: 50%;}
-       to {left: 60%;}
-      }
+	from {left: 50%;}
+	to {left: 60%;}
+}
 @-moz-keyframes cloud11{
-       from {left: 50%;}
-       to {left: 60%;}
-       }
+	from {left: 50%;}
+	to {left: 60%;}
+}
 @keyframes cloud11{
-       from {left: 50%;}
-       to {left: 60%;}
-      }
+	from {left: 50%;}
+	to {left: 60%;}
+}
 @-webkit-keyframes cloud12{
-       from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-moz-keyframes cloud12{
-       from {left: 10%;}
-       to {left: 20%;}
-       }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @keyframes cloud12{
-       from {left: 10%;}
-       to {left: 20%;}
-      }
+	from {left: 10%;}
+	to {left: 20%;}
+}
 @-webkit-keyframes cloud13{
-       from {left: 60%;}
-       to {left: 70%;}
-      }
+	from {left: 60%;}
+	to {left: 70%;}
+}
 @-moz-keyframes cloud13{
-       from {left: 60%;}
-       to {left: 70%;}
-       }
+	from {left: 60%;}
+	to {left: 70%;}
+}
 @keyframes cloud13{
-       from {left: 60%;}
-       to {left: 70%;}
-      }
+	from {left: 60%;}
+	to {left: 70%;}
+}
 @-webkit-keyframes cloud14{
-       from {left: 30%;}
-       to {left: 40%;}
-      }
+	from {left: 30%;}
+	to {left: 40%;}
+}
 @-moz-keyframes cloud14{
-      from {left: 30%;}
-       to {left: 40%;}
-       }
+	from {left: 30%;}
+	to {left: 40%;}
+}
 @keyframes cloud14{
-       from {left: 30%;}
-       to {left: 40%;}
-      }
+	from {left: 30%;}
+	to {left: 40%;}
+}
 @-webkit-keyframes meteor{
 	from {left: -70%;bottom: 3700px;visibility:visible;}
-    to {left: 80%;bottom: 3900px;visibility:hidden;}
-      }
+	to {left: 80%;bottom: 3900px;visibility:hidden;}
+}
 @-moz-keyframes meteor{
 	from {left: -70%;bottom: 3700px;visibility:visible;}
     to {left: 100%;bottom: 3900px;visibility:hidden;}
-      }
+}
 @keyframes meteor{
     from {left: -70%;bottom: 3700px;visibility:visible;}
     to {left: 100%;bottom: 3800px;visibility:hidden;}
-      }
+}
 @-webkit-keyframes stars{
-       0% {
-        opacity:1;
-       }
-        50% {
-         opacity:0.5;
-       }
-       100% {
-        opacity:1;
-       }
-      }
+	0% {opacity:1;}
+	50% {opacity:0.5;}
+	100% {opacity:1;}
+}
 @-moz-keyframes stars{
-      0% {
-        opacity:1;
-       }
-        50% {
-         opacity:0.5;
-       }
-       100% {
-        opacity:1;
-       }
-      }
+	0% {opacity:1;}
+	50% {opacity:0.5;}
+	100% {opacity:1;}
+}
 @keyframes stars{
-       0% {
-        opacity:1;
-       }
-        50% {
-         opacity:0.5;
-       }
-       100% {
-        opacity:1;
-       }
-      }
-      @-webkit-keyframes ufo_light{
-       0% {
-        opacity:1;
-       }
-        50% {
-         opacity:0.5;
-       }
-       100% {
-        opacity:1;
-       }
-      }
+	0% {opacity:1;}
+	50% {opacity:0.5;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes ufo_light{
+	0% {opacity:1;}
+	50% {opacity:0.5;}
+	100% {opacity:1;}
+}
 @-moz-keyframes ufo_light{
-      0% {
-        opacity:1;
-       }
-        50% {
-         opacity:0.5;
-       }
-       100% {
-        opacity:1;
-       }
-      }
+	0% {opacity:1;}
+	50% {opacity:0.5;}
+	100% {opacity:1;}
+}
 @keyframes ufo_light{
-       0% {
-        opacity:1;
-       }
-        50% {
-         opacity:0.5;
-       }
-       100% {
-        opacity:1;
-       }
-      }
+	0% {opacity:1;}
+	50% {opacity:0.5;}
+	100% {opacity:1;}
+}
 @-webkit-keyframes ufo{
-       from {left: 75%;}
-       to {left: -24%;}
-      }
+	from {left: 75%;}
+	to {left: -24%;}
+}
 @-moz-keyframes ufo{
-      from {left: 20%;}
-       to {left: -24%;}
-      }
+	from {left: 20%;}
+	to {left: -24%;}
+}
 @keyframes ufo{
-       from {left: 20%;}
-       to {left: -24%;}
-      }
+	from {left: 20%;}
+	to {left: -24%;}
+}
