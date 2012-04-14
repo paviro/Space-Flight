@@ -211,3 +211,48 @@
         opacity:1;
        }
       }
+      @-webkit-keyframes ufo_light{
+       0% {
+        opacity:1;
+       }
+        50% {
+         opacity:0.5;
+       }
+       100% {
+        opacity:1;
+       }
+      }
+@-moz-keyframes ufo_light{
+      0% {
+        opacity:1;
+       }
+        50% {
+         opacity:0.5;
+       }
+       100% {
+        opacity:1;
+       }
+      }
+@keyframes ufo_light{
+       0% {
+        opacity:1;
+       }
+        50% {
+         opacity:0.5;
+       }
+       100% {
+        opacity:1;
+       }
+      }
+@-webkit-keyframes ufo{
+       from {left: 75%;}
+       to {left: -24%;}
+      }
+@-moz-keyframes ufo{
+      from {left: 20%;}
+       to {left: -24%;}
+      }
+@keyframes ufo{
+       from {left: 20%;}
+       to {left: -24%;}
+      }
